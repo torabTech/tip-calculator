@@ -1,0 +1,43 @@
+html{
+    background-color: #ffffff;
+    height: 100%;
+}
+#container{
+   
+    background-color: #dcebff;
+      border: 5px solid #056bf1;
+      padding: 25px;
+      margin-top: 50px;
+     
+}
+legend{
+    font-weight: bold;
+    color: #056bf1;
+    background-color: beige;
+}
+fieldset{
+    border: 2xp solid #056bf1;
+}
+.wrapper{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+    font-weight: bold;
+    padding-right: 20px;
+}
+tr{
+    padding-bottom: 20px;
+}
+.input_styling{
+    height: 25px;
+    width: 250px;
+    border-radius: 5px;
+}
+#btn{
+    color: #056bf1;
+    font-weight: bolder;
+    font-size: 16px;
+}
