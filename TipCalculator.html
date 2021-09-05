@@ -7,48 +7,30 @@
         <title> Tip Calculator</title>
 
     </head>
-    <body>
-        <div class="wrapper">
-            <div id="container">
-
-                <fieldset>
-
-                    <legend>Tip-Calculator</legend>
-                    <table>
-                        <tr>
-                            <td class="title"> Bill Amount:</td>
-                            <td><input id="bill_amount" class="input_styling"
-                                    type="number" required>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="title">Tip Percentage:</td>
-                            <td><input id="tip_percentage" class="input_styling"
-                                    type="number" required></td>
-                        </tr>
-                        <tr>
-                            <td class="title">Tip Amount:</td>
-                            <td><input id="tip_amount" class="input_styling"
-                                    type="number" disabled></td>
-                        </tr>
-                        <tr>
-                            <td class="title">Total Bill:</td>
-                            <td><input id="total_bill" class="input_styling"
-                                    type="number" disabled></td>
-                        </tr>
-                        <tr>
-                            <td> <button id="btn">Calculate</button></td>
-                        </tr>
-                    </table>
-                </fieldset>
-
-
-
-
-
-
+        <body data-new-gr-c-s-check-loaded="14.1027.0" data-gr-ext-installed="">
+            <h1>
+                <img id="logo" src="calc.jpg" alt="++--**//">
+                  Tip Calculator
+            </h1>
+    
+            <div>
+                <label><input id="subtotal" type="text"> $ Subtotal</label>
             </div>
-        </div>
+    
+            <div>
+                <label><input id="tip" type="text"> % Tip</label>
+            </div>
+    
+            <div>
+                <button id="btn" onclick="calcTip();">Calculate Tip</button>
+            </div>
+    
+            <hr>
+            <div>
+                <h2>Your total:</h2>
+                <p id="total">$100000</p>
+            </div>
+            
         <script src="main.js"></script>
     </body>
 
